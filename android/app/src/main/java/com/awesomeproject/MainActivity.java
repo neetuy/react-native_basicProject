@@ -1,6 +1,6 @@
-package com.awesomeproject;
+// package com.awesomeproject;
 
-import com.facebook.react.ReactActivity;
+// import com.facebook.react.ReactActivity;
 
 // public class MainActivity extends ReactActivity {
 
@@ -13,6 +13,9 @@ import com.facebook.react.ReactActivity;
 //         return "AwesomeProject";
 //     }
 // }
+
+
+
 
 import org.pgsqlite.SQLitePluginPackage;
 

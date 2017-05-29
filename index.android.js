@@ -4,6 +4,10 @@
  * @flow
  */
 
+ 
+var React = require('react-native');
+var SQLite = require('react-native-sqlite-storage')
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -25,6 +29,10 @@ export default class AwesomeProject extends Component {
         <Text style={styles.instructions}>
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
+        </Text>
+        <Text style={styles.instructions}>
+          Trying to use database
+          hi hlo 
         </Text>
       </View>
     );
